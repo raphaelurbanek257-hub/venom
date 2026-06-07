@@ -10,3 +10,10 @@ git clone https://github.com/raphaelurbanek257-hub/venom
 cd venom
 gcc -O3 venom.c -o venom -lpthread -lncurses -Wall
 sudo ./venom
+  ios
+
+git clone https://github.com/raphaelurbanek257-hub/venom
+cd venom
+apk add gcc ncurses-dev
+gcc -O3 venom.c -o venom -lpthread -lncurses -Wall
+./venom
